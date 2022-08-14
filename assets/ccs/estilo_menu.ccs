@@ -1,0 +1,143 @@
+* {  
+padding: 0px; margin: 0px; box-sizing: border-box; font-family:Sitka Small;font-weight:bold;
+}
+
+body {background-image:url(../imagenes/fondo_paris.jpg); 
+background-size:100vw 100vh;
+background-attachment: fixed;text-align:center; font-size:10px;
+
+
+/*background-size:cover;*/
+/*background-size:125vw 50vh;*/
+/*background-attachment: fixed*/
+}
+
+header {
+   
+    width: 100%;
+    max-width:3000px;
+    height: 40px;
+    /*background: rgba(174,214,241); //rgba(233,236,254,.8);*/
+    color: #000;
+    display: flex;      /*flexibilidad en la patanlla*/
+    justify-content: flex-start;
+    align-items: center;
+    position:absolute;
+    box-shadow: 0px 5px 10px black, 0px 5px 0px black;
+   /* box-shadow: 0px 5px 10px  deepskyblue, 0px 5px 0px  crimson;*/
+}
+
+#btn-menu {
+    display: none;  /* no mostrar checkbox en pantalla */
+}
+header label {
+    font-size: 20px;
+    cursor: pointer;
+    display: none;       /* no mostrar en pantalla */
+}
+
+#menu {
+   margin:auto;
+   width:-150%;/*ancho*/
+
+}
+
+ul,ol{
+
+list-style:none;
+font-size:13px;
+padding: 2px 0px;
+}
+
+
+
+
+
+
+
+.x1{
+right:40px;/*control sub menu*/
+
+
+}
+.x2{
+right:-25px;/*control sub menu*/
+
+}
+
+
+
+
+.nav li a{
+background-color:darkgray;/*#000;*/
+color:#fff;
+text-decoration:none;
+padding: 4px 20px;
+/*box-shadow: 5px 5px 10px #808080;*/
+border-radius: 6px;
+border: 2px solid #000;
+display: block;
+}
+
+
+
+
+
+.nav li a:hover {
+background-color: #4d5656 ;
+}
+
+.nav li ul{
+/*background-color:#000;*/
+/*color:#fff;*/
+text-decoration:none;
+padding: 0px 0px;
+display:none;
+position:absolute;
+min-width=10px;
+
+}
+.nav li:hover > ul {
+
+display:block;
+}
+
+.nav li ul li{
+padding:0px 0px;
+position:relative;
+}
+
+.nav li ul li ul{
+padding:0px auto;
+display:none;
+right:-130px;/*control sub menu*/
+top:0px;
+}
+
+
+
+.nav > li {
+float:left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

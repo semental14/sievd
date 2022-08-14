@@ -1,0 +1,137 @@
+* {  padding: 0; margin: 0;font-family:Sitka Small;font-weight:bold; }
+
+body { background-image:url(../imagenes/fondo_paris.jpg); 
+
+background-size:195vw 100vh;
+background-attachment: fixed; text-aling: center; }
+
+header {
+      background: rgba(174,214,241);  /*deepskyblue;*/
+    color: #000;
+    display: flex;      /*flexibilidad en la patanlla*/
+    justify-content: flex-star;
+    box-shadow: 0px 5px 10px  deepskyblue, 0px 5px 0px  crimson;
+    border: 0px  solid #333;
+}
+
+h2{
+font-size:20px;
+}
+
+
+form {
+   width:50%; /* ancho de la pagina */
+    /*height : 498px;*/
+    background: rgba(174,182,191,.7);/*rgba(233,236,254,.6);*/
+   margin:20px auto;
+   padding: 20px 10px 0px 10px;
+   box-sizing: border-box;
+   marging-top: 0px;
+   border-radius: 7px;
+   border: 2px solid #333; 
+  box-shadow: 0px 5px 10px  deepskyblue, 0px 5px 0px  crimson;
+}
+
+table{
+
+/*border-collapse: collapse;*/  /* separate la otra opcion*/
+ width:100%;
+ margin:20px auto;
+ border: 3px solid #000;
+ padding: 2px;
+ box-sizing: border-box;
+}
+
+
+th, td {
+font-size:18px;
+border: 1px solid #000;
+padding: 7px;
+}
+
+thead > tr > th{
+
+font-size:20px;
+background: #0074c4;
+color:#fff;
+border solid 30px "000;
+}
+
+input[type="submit"]{
+
+margin-bottom: auto;
+width:20%;
+padding:0px;
+font-size:18px;
+color:#fff;
+font-weight:bold; /* poner texto en negrita */
+ margin: auto;
+  background: #0074c4;
+  border: 2px solid #000;
+  display:block;
+}
+
+
+
+a{
+    font-size:18px;
+    font-weight:bold;
+    text-decoration: none;
+    color:#333;
+    margin:0px auto;    /* distancia entre lineas de texto*/
+    padding: 0px 10px;
+    text-align: center;
+    margin-bottom: 0px
+}
+
+ a:hover {
+    border-radius: 7px;
+    border: 1px solid  red;
+  /* color: #fff; */
+  /* background-color:  #00b8eb; */ ;   /*#c0392b;  */
+    
+}  
+div > a:focus{
+border:1px solid red;  /* cuando haga click esta parado para escribir */
+}
+
+td > a {
+    display:block;
+    font-size:18px;
+    font-weight:bold;
+    text-decoration: none;
+    color:red;
+    margin:0px auto;    /* distancia entre lineas de texto*/
+    padding: 0px 2px;
+    text-position: center;
+    margin-bottom: 0px
+}
+
+td > a:hover {
+    background: #000;
+    border-radius: 7px;
+    border: 0px solid  red;
+
+    
+}
+
+td > a:focus {
+    background: #000;
+    border-radius: 7px;
+    border: 1px solid red;
+}
+
+tr:nth-child(even){
+    background: #00b8eb;/*#c0c5cb;*/
+}
+
+th > .1{
+ font-size:50px;
+}
+
+input[type="submit"]:hover{
+    transform: scale(1.05);
+    background-color:    #158fe3 ;  ;   /* #00b8eb; */
+    cursor:pointer;
+   /* border: 1px solid #333;*/ 
+ }

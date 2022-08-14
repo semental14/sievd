@@ -1,0 +1,96 @@
+* {  padding: 0; margin: 0;font-family: Goudy Old Style;box-sizing: border-box;font-weight:bold; }
+
+body {background-image:url(../imagenes/fondo_paris.jpg); background-size:cover;text-align:center;}
+
+.form-register{
+    display:block;
+    background: rgba(233,236,254,.8);
+    width: 20%;
+    max-width: 500px;
+    margin:120px auto;
+    border-radius: 7px;
+    border: 2px solid #333; 
+    box-shadow: 0px 0px 0px  deepskyblue, 0px 0px 0px  crimson;
+}
+
+.form__titulo{
+    background: deepskyblue;
+    /*box-shadow: 2px 3px 1px  blue, 0px 8px 0px  green;*/
+    color :#000;
+    text-aling: center;
+    font-size:23px;
+    border-bottom: 3px solid crimson;
+    padding: 10px;
+}
+
+.contenedor-inputs{
+
+padding: 5px 10px;
+display: flex;
+flex-wrap: wrap;                  /* los orden*/
+justify-content: space-between;   /* da espacio en el contenedor */
+}
+
+input[type="text"],input[type="email"],input[type="password"]{
+
+width: 100%;
+margin-bottom: 15px;
+padding: 0px;
+font-size:18px;
+border-radius: 3px;
+border: 1px solid darkgray;
+}
+
+.btn-modificar {
+
+background: crimson;
+color:#fff;
+margin: auto; /*right;*/
+padding: 5px 10px;
+/*margin-bottom: 10px;*/
+cursor: pointer;
+font-size:18px;
+}
+
+.btn-modificar:hover {
+
+transform: scale(1.05);
+border: 2px solid  #000;
+}
+
+.form__link{
+width: 100%;
+margin: 10px;
+font-size:18px;
+text-aling: center;
+
+}
+
+label{
+
+    font-size:18px;
+}
+
+a{
+    
+    font-size:18px;
+    font-weight:bold;
+    text-decoration: none;
+    color:#000;
+       /* distancia entre lineas de texto*/
+    padding: 5px 10px;
+    text-aling: center;
+}
+
+ a:hover {
+ 
+    border-radius: 7px;
+    border: 1px solid  red;
+    cursor: pointer;
+}  
+
+a:focus{
+
+    border:1px solid red;  /* cuando haga click esta parado para escribir */
+}
+

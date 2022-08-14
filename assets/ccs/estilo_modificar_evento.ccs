@@ -1,0 +1,226 @@
+*{  padding: 0; margin:2px;font-family:Sitka Small;font-weight:bold; }
+
+body { background-image:url(../imagenes/fondo_paris.jpg); 
+/*background-size:cover;*/
+background-size:195vw 100vh;
+background-attachment: fixed; text-aling: center; }
+
+
+
+
+
+img{
+    width:40px;
+    float:left;
+}
+
+h2{
+text-align:right;
+}
+
+.form-register{
+    display:block;
+    background: rgba(233,236,254,.8);
+    width: 70%;
+    max-width: 5000px;
+    margin:20px auto;
+    border-radius: 7px;
+    border: 2px solid #333; 
+    box-shadow: 0px 3px 10px  deepskyblue, 0px 3px 0px  crimson;
+}
+.form__titulo{
+   
+   background: deepskyblue;
+    /*box-shadow: 2px 3px 1px  blue, 0px 8px 0px  green;*/
+    color :#000;
+    box-sizing: border-box;
+    font-size:30px;
+    border-bottom: 3px solid crimson;
+    padding: 10px;
+}
+
+table{
+/*display:block;
+/*border-collapse: collapse;*/  /* separate la otra opcion*/
+ width:100%;
+ margin:2px auto;
+ border: 0px solid #000;
+ padding: 0px;
+ text-aling: center;
+}
+
+
+
+.especial1{
+font-size:18px;
+border: 0px solid #000;
+padding: 0px 0px;
+width:475px;
+
+}
+.especial2{
+font-size:18px;
+border: 0px solid #000;
+padding: 1px 0px;
+width:475px;
+
+}
+.especial3{
+font-size:18px;
+border: 0px solid #000;
+padding: 1px;
+width:475px;
+
+}
+.especial4{
+font-size:18px;
+border: 0px solid #000;
+padding: 1px;
+width:475px;
+
+}
+.especial5{
+font-size:18px;
+border: 0px solid #000;
+padding: 1px;
+width:475px;
+
+}
+.especial6{
+font-size:18px;
+border: 0px solid #000;
+padding: 1px;
+width:475px;
+
+}
+.especial7{
+font-size:18px;
+border: 0px solid #000;
+padding: 1px;
+width:475px;
+
+}
+.especial8{
+font-size:18px;
+border: 0px solid #000;
+padding: 1px;
+width:475px;
+
+}
+.especialf{
+font-size:18px;
+border: 0px solid #000;
+padding: 1px;
+width:953px;
+
+}
+input[type="text"],input[type="email"],input[type="password"]{
+width: 49.5%;
+margin-bottom: 0px;
+padding: 0px 1px;
+font-size:15px;
+border-radius: 3px;
+border: 1px solid darkgray;
+margin:1px;
+box-sizing: border-box;
+}
+
+#f_propuesta{
+width: 99.7%;
+display: flex end;
+text-aling: center;
+box-sizing: border-box;
+font-size:15px;
+}
+
+textarea {
+margin: 2px;
+box-sizing: border-box;
+font-size:16px;
+border: 2px solid darkgray;
+margin-bottom: 7px;
+padding: 2px;
+width:99.6%;
+
+
+}
+textarea {
+min-height: 60px;
+max-height: 60px;
+max-width: 99.6%;
+}
+
+
+
+.btn-modificar {
+display:block;
+background: crimson;
+color:#fff;
+/*margin: auto;*/ /*right;*/
+padding: 5px 5px;
+margin:5px auto;
+cursor: pointer;
+font-size:18px;
+margin-bottom: 0px;
+}
+
+.btn-modificar:hover {
+
+transform: scale(1.05);
+border: 2px solid  #000;
+}
+
+.form__link{
+display:block;
+width: 100%;
+/*margin: 0px;*/
+font-size:18px;
+display:block;
+margin:0px auto;
+}
+
+label{
+
+    font-size:18px;
+}
+
+a{
+    margin: 0px;
+    font-size:18px;
+    font-weight:bold;
+    text-decoration: none;
+    color:#000;
+    padding: 0px 10px;
+}
+
+
+ a:hover {
+ 
+    border-radius: 7px;
+    border: 1px solid  red;
+    cursor: pointer;
+}  
+
+a:focus{
+
+    border:1px solid red;  /* cuando haga click esta parado para escribir */
+}
+
+.encabezado,.encabezado1{
+    width:50%;
+    color:#000;
+    font-size:20px;
+    background: darkgray; /*#0074c4;
+    border: 10px solid rgba(233,236,254,.8); /*darkgray;
+    
+}  
+
+.especial{
+   width:100%;
+    color:#fff;
+    font-size:20px;
+    background: rgba(233,236,254,.8); /*#0074c4;
+    border: 10px solid  darkgray; /*darkgray;
+    box-sizing: border-box;
+
+}    

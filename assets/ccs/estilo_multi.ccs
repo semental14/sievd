@@ -1,0 +1,738 @@
+* {  padding: 0; margin: 0;font-family:Sitka Small;font-weight:bold; }
+
+/*body { background-image:url(../imagenes/cintillo.jpg); */
+body {background-image:url(../imagenes/fondo_paris.jpg); 
+
+background-size:100vw 100vh;
+background-attachment: fixed; text-aling: center; }
+
+.band{
+    width:30px;
+    float:center;
+    /*right;*/
+}
+
+
+
+
+img{
+    width:80px;
+    float:left;
+    /*right;*/
+}
+
+
+.logo{
+  
+    width:100px;
+    /*float:left;*/
+    /*right;*/
+}
+
+
+h2{
+text-align:left;
+/*left;*/
+}
+
+.form_ciclo{
+    width: 40%;
+     background: rgba(174,182,191,.7);/*rgba(233,236,254,.6);*/
+   /* display:block;*/
+    width: 40%;
+    max-width: 5000px;
+    margin:10px auto;
+    border-radius: 7px;
+    border: 2px solid #333; 
+     box-shadow: 0px 5px 10px  deepskyblue, 0px 5px 0px  crimson;
+}
+
+.form_paises{
+    width: 40%;
+    background: rgba(174,182,191,.7);/*rgba(233,236,254,.6);*/
+    max-width: 5000px;
+    margin:10px auto;
+    border-radius: 7px;
+    border: 2px solid #333; 
+     box-shadow: 0px 5px 10px  deepskyblue, 0px 5px 0px  crimson;
+}
+
+
+.form_modalidad{
+   width: 75%;
+     background: rgba(174,182,191,.7);/*rgba(233,236,254,.6);*/
+    max-width: 5000px;
+    margin:10px auto;
+    border-radius: 7px;
+    border: 2px solid #333; 
+    box-shadow: 0px 5px 10px  deepskyblue, 0px 5px 0px  crimson;
+}
+
+.form_categoria{
+   width: 40%;
+     background: rgba(174,182,191,.7);/*rgba(233,236,254,.6);*/
+    max-width: 5000px;
+    margin:10px auto;
+    border-radius: 7px;
+    border: 2px solid #333; 
+     box-shadow: 0px 5px 10px  deepskyblue, 0px 5px 0px  crimson;
+}
+
+
+
+.form_fase{
+width: 60%;
+     background: rgba(174,182,191,.7);/*rgba(233,236,254,.6);*/
+    
+    max-width: 5000px;
+    margin:20px auto;
+    border-radius: 7px;
+    border: 2px solid #333; 
+     box-shadow: 0px 5px 10px  deepskyblue, 0px 5px 0px  crimson;
+}
+
+.form_prueba{
+   width: 60%;
+     background: rgba(174,182,191,.7);/*rgba(233,236,254,.6);*/
+    
+    max-width: 5000px;
+    margin:20px auto;
+    border-radius: 7px;
+    border: 2px solid #333; 
+    box-shadow: 0px 5px 10px  deepskyblue, 0px 5px 0px  crimson;
+}
+
+.form_deporte{
+    width: 40%;
+     background: rgba(174,182,191,.7);/*rgba(233,236,254,.6);*/
+   
+    max-width: 5000px;
+    margin:20px auto;
+    border-radius: 7px;
+    border: 2px solid #333; 
+     box-shadow: 0px 5px 10px  deepskyblue, 0px 5px 0px  crimson;
+}
+
+
+
+
+
+
+
+.form_calendario{
+    width: 65%;
+     background: rgba(174,182,191,.7);/*rgba(233,236,254,.6);*/
+    
+    max-width: 5000px;
+    margin:20px auto;
+    border-radius: 7px;
+    border: 2px solid #333; 
+     box-shadow: 0px 5px 10px  deepskyblue, 0px 5px 0px  crimson;
+}
+
+.form_resultado{
+    width: 95%;
+     background: rgba(174,182,191,.7);/*rgba(233,236,254,.6);*/
+    
+    max-width: 5000px;
+    margin:20px auto;
+    border-radius: 7px;
+    border: 2px solid #333; 
+     box-shadow: 0px 5px 10px  deepskyblue, 0px 5px 0px  crimson;
+}
+
+
+
+.form_atleta_nac{
+    
+    background: rgba(174,182,191,.7);/*rgba(233,236,254,.6);*/
+    width: 80%;
+    max-width: 5000px;
+    margin:20px auto;
+    border-radius: 7px;
+    border: 2px solid #333; 
+    box-shadow: 0px 5px 10px  deepskyblue, 0px 5px 0px  crimson;
+}
+
+
+.form_posicion{
+   width: 40%;
+     background: rgba(174,182,191,.7);/*rgba(233,236,254,.6);*/
+    
+    max-width: 5000px;
+    margin:20px auto;
+    border-radius: 7px;
+    border: 2px solid #333; 
+     box-shadow: 0px 5px 10px  deepskyblue, 0px 5px 0px  crimson;
+}
+
+.form_evento{
+    width: 80%;
+     background: rgba(174,182,191,.7);/*rgba(233,236,254,.6);*/
+   
+    max-width: 5000px;
+    margin:20px auto;
+    border-radius: 7px;
+    border: 2px solid #333; 
+     box-shadow: 0px 5px 10px  deepskyblue, 0px 5px 0px  crimson;
+}
+
+
+
+
+.form-register{
+    width: 75%;
+    background: rgba(174,182,191,.7);/*rgba(233,236,254,.6);*/
+   
+    max-width: 5000px;
+    margin:10px auto;
+    border-radius: 7px;
+    border: 2px solid #333; 
+     box-shadow: 0px 5px 10px  deepskyblue, 0px 5px 0px  crimson;
+}
+
+.form_deporte_ejer{
+   width: 35%;
+     background: rgba(174,182,191,.7);/*rgba(233,236,254,.6);*/
+    
+    max-width: 5000px;
+    margin:10px auto;
+    border-radius: 7px;
+    border: 2px solid #333; 
+     box-shadow: 0px 5px 10px  deepskyblue, 0px 5px 0px  crimson;
+}
+
+.form_estado_ejer{
+   width: 35%;
+     background: rgba(174,182,191,.7);/*rgba(233,236,254,.6);*/
+    
+    max-width: 5000px;
+    margin:10px auto;
+    border-radius: 7px;
+    border: 2px solid #333; 
+     box-shadow: 0px 5px 10px  deepskyblue, 0px 5px 0px  crimson;
+}
+
+.form_comp{
+    width: 90%;
+    /*display:block;*/
+     background: rgba(174,182,191,.7);/*rgba(233,236,254,.6);*/
+    
+    max-width: 5000px;
+    margin:10px auto;
+    border-radius: 7px;
+    border: 2px solid #333; 
+    box-shadow: 0px 5px 10px  deepskyblue, 0px 5px 0px  crimson;
+}
+
+.form_calendario1{
+     width: 60%;
+    /*display:block;*/
+     background: rgba(174,182,191,.7);/*rgba(233,236,254,.6);*/
+   
+    max-width: 5000px;
+    margin:10px auto;
+    border-radius: 7px;
+    border: 2px solid #333; 
+     box-shadow: 0px 5px 10px  deepskyblue, 0px 5px 0px  crimson;
+}
+
+.form__titulo{
+   margin:0px;
+     background: rgba(174,214,241);  /*deepskyblue;*/
+    /*box-shadow: 2px 3px 1px  blue, 0px 8px 0px  green;*/
+    color :#000;
+   
+    font-size:25px;
+    border-bottom: 4px solid crimson;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+.especial {
+font-size:14px;
+border: 0px solid #000;
+padding: 5px;
+width:20px;
+background: darkgray;
+}
+
+.especial2 {
+font-size:14px;
+border: 1px solid #000;
+padding: 5px;
+width:145px;
+background: darkgray;
+}
+
+.especial3 {
+font-size:14px;
+border: 1px solid #000;
+padding: 5px;
+width:173px;
+background: darkgray;
+}
+
+.especial4 {
+font-size:14px;
+border: 1px solid #000;
+padding: 5px;
+width:196px;
+background: darkgray;
+}
+
+.especial5 {
+font-size:14px;
+border: 1px solid #000;
+padding: 5px;
+width:px;
+background: darkgray;
+}
+
+.especial6 {
+margin:0px;
+font-size:0px;
+border: 1px solid #000;
+padding:1px;
+width:153px;
+}
+
+.especial7 {
+margin:0px;
+font-size:0px;
+border: 1px solid #000;
+padding:1px;
+width:180px;
+}
+
+.especial8 {
+margin:0px;
+font-size:0px;
+border: 1px solid #000;
+padding:1px;
+width:205px;
+}
+
+.especial19 {
+margin:0px;
+font-size:0px;
+border: 1px solid #000;
+padding:1px;
+width:px;
+}
+
+
+
+
+
+
+
+table{
+
+/*border-collapse: collapse;*/  /* separate la otra opcion*/
+ width:100%;
+ margin:0px auto;
+ border: 0px solid #000;
+/* box-sizing: border-box; */
+/*padding: 0px;*/
+text-align: center;
+ 
+}
+
+
+input[type="text"],input[type="email"],input[type="file"],input[type="date"]{
+width: 100%;
+margin-bottom: 0px;
+padding: 0px;
+font-size:14px;
+border-radius: 3px;
+border: 1px solid darkgray;
+margin:0px;
+box-sizing: border-box;
+}
+input[type="file"]{
+width: 100%;
+margin-bottom: 0px;
+padding: 0px;
+font-size:13px;
+border-radius: 3px;
+border: 1px solid darkgray;
+margin:0px;
+box-sizing: border-box;
+}
+
+input[type="time"]{
+width: 100%;
+margin-bottom: 0px;
+padding: 0px;
+font-size:14px;
+border-radius: 3px;
+border: 1px solid darkgray;
+margin:0px;
+box-sizing: border-box;
+}
+
+
+select{
+width: 100%;
+margin-bottom: 0px;
+padding: 0px;
+font-size:14px;
+border-radius: 3px;
+border: 1px solid darkgray;
+margin:0px;
+box-sizing: border-box;
+}
+
+
+
+.boton {
+
+display:block;
+width:25.5%;
+background: crimson;
+color:#fff;
+/*margin: auto; /*right;*/
+padding: 9px 0px;
+margin:5px auto;
+cursor: pointer;
+font-size:14px;
+margin-bottom: 0px;
+text-aling: center;
+border: 2px solid  #000;
+border-radius: 7px;
+}
+
+.boton:hover {
+
+transform: scale(1.05);
+border: 2px solid  #000;
+}
+
+.boton_fase {
+
+display:block;
+width:21.8%;
+background: crimson;
+color:#fff;
+/*margin: auto; /*right;*/
+padding: 9px 0px;
+margin:5px auto;
+cursor: pointer;
+font-size:14px;
+margin-bottom: 0px;
+text-aling: center;
+border: 2px solid  #000;
+border-radius: 7px;
+}
+
+.boton_fase:hover {
+
+transform: scale(1.05);
+border: 2px solid  #000;
+}
+
+.b_ciclo {
+
+display:block;
+width:39%;
+background: crimson;
+color:#fff;
+/*margin: auto; /*right;*/
+padding: 9px 0px;
+margin:5px auto;
+cursor: pointer;
+font-size:14px;
+margin-bottom: 0px;
+text-aling: center;
+border: 2px solid  #000;
+border-radius: 7px;
+}
+
+.b_ciclo:hover {
+
+transform: scale(1.05);
+border: 2px solid  #000;
+}
+
+.b_modalidad {
+
+display:block;
+width:13.5%;
+background: crimson;
+color:#fff;
+/*margin: auto; /*right;*/
+padding: 9px 0px;
+margin:5px auto;
+cursor: pointer;
+font-size:14px;
+margin-bottom: 0px;
+text-aling: center;
+border: 2px solid  #000;
+border-radius: 7px;
+}
+
+.b_modalidad:hover {
+
+transform: scale(1.05);
+border: 2px solid  #000;
+}
+
+
+.b_categoria {
+
+display:block;
+width:41.5%;
+background: crimson;
+color:#fff;
+/*margin: auto; /*right;*/
+padding: 9px 0px;
+margin:5px auto;
+cursor: pointer;
+font-size:14px;
+margin-bottom: 0px;
+text-aling: center;
+border: 2px solid  #000;
+border-radius: 7px;
+}
+
+.b_categoria:hover {
+
+transform: scale(1.05);
+border: 2px solid  #000;
+}
+
+.b_prueba {
+
+display:block;
+width:26.6%;
+background: crimson;
+color:#fff;
+/*margin: auto; /*right;*/
+padding: 9px 0px;
+margin:5px auto;
+cursor: pointer;
+font-size:14px;
+margin-bottom: 0px;
+text-aling: center;
+border: 2px solid  #000;
+border-radius: 7px;
+}
+
+.b_prueba:hover {
+
+transform: scale(1.05);
+border: 2px solid  #000;
+}
+
+.b_posicion {
+
+display:block;
+width:39.2%;
+background: crimson;
+color:#fff;
+/*margin: auto; /*right;*/
+padding: 9px 0px;
+margin:5px auto;
+cursor: pointer;
+font-size:14px;
+margin-bottom: 0px;
+text-aling: center;
+border: 2px solid  #000;
+border-radius: 7px;
+}
+
+.b_posicion:hover {
+
+transform: scale(1.05);
+border: 2px solid  #000;
+}
+
+
+.nuevo {
+font-size:14px;
+border: 0px solid #000;
+padding: 2px;
+}
+
+.buscar {
+font-size:14px;
+border: 0px solid #000;
+padding: 2px;
+}
+
+th {
+font-size:14px;
+border: 2px solid #000;
+padding: 3px;
+background: darkgray;
+}
+
+td {
+font-size:14px;
+border: 1px solid #000;
+padding: 3px;
+
+}
+
+
+
+
+
+
+.especial15 {
+font-size:14px;
+border: 0px solid #000;
+padding: 1px;
+width:0px;
+margin:1px;
+}
+
+.especial9{
+font-size:14px;
+border: 0px solid #000;
+padding: 3px;
+width:400px;
+background: darkgray;
+}
+
+
+
+input[type="submit"]{
+
+margin-bottom: auto;
+width:30%;
+}
+
+
+
+.btn-modificar {
+display:block;
+width:21.1%;
+background: crimson;
+color:#fff;
+/*margin: auto;*/ /*right;*/
+padding: 5px 0px;
+margin:5px auto;
+cursor: pointer;
+font-size:14px;
+margin-bottom: 0px;
+border: 2px solid  #000;
+border-radius: 7px;
+}
+
+.btn-modificar:hover {
+
+transform: scale(1.05);
+border: 2px solid  #000;
+}
+
+.form__link{
+display:block;
+width: 100%;
+/*margin: 0px;*/
+font-size:18px;
+display:block;
+margin:0px auto;
+}
+
+label{
+
+    font-size:18px;
+}
+
+a{
+    margin: 0px;
+    font-size:14px;
+    font-weight:bold;
+    text-decoration: none;
+    color:#000;
+    padding: 0px 15px;
+}
+
+
+ a:hover {
+ 
+    border-radius: 7px;
+    border: 1px solid  red;
+    cursor: pointer;
+}  
+
+a:focus{
+
+    border:1px solid red;  /* cuando haga click esta parado para escribir */
+}
+
+td > a {
+    display:block;
+    font-size:14px;
+    font-weight:bold;
+    text-decoration: none;
+    color:crimson;
+    margin:0px auto;    /* distancia entre lineas de texto*/
+    padding: 0px 2px;
+    text-position: center;
+    margin-bottom: 0px
+}
+
+
+
+td > a:hover {
+    background: #000;
+    border-radius: 3px;
+    border: 0px solid  red;
+  
+}
+
+tr:nth-child(even){
+    background: #e2f1c1;/*#c0c5cb;
+}
+
+
+
+th > .1{
+ font-size:50px;
+}
+
+
+
+
+
+
+
+
+@media(max-width: 480px){
+form{
+width:100%;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

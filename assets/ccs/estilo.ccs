@@ -1,0 +1,227 @@
+* {
+    box-sizing: border-box; padding: 3px; margin: 0 auto; font-family:Sitka Small;font-weight:bold;
+  }
+
+body {background-image:url(../imagenes/fondo_paris.jpg); 
+background-size:100vw 100vh; background-attachment: fixed;text-align:center; font-size:10px;
+font-weight:bold;  
+/*animation: cambiar 5s infinite;*/
+/*animation-duration: 5s;*/
+
+
+/*animation: cambiar 4s 1 linear;*/
+
+
+}
+
+@keyframes cambiar{
+
+0%{ margin-top: 0;}
+/*120%{ margin-top: 0;}*/
+
+1%{ margin-top: -440px;}
+/*50%{ margin-top: -40px;}*/
+
+
+/*100%{ margin-top: -300px;}*/
+/*80%{ margin-top: -80px;}*/
+
+/*100%{ margin-top: -40px;}*/
+/*95%{ margin-top: -40px;}*/
+
+
+100%{ margin-top: 0px;}
+
+
+
+}
+
+
+
+ 
+
+
+
+
+form {
+   width:25%; /* ancho de la pagina */
+    /*height : 498px;*/
+   margin : 150px auto;
+    background: rgba(174,182,191,.9);
+   /*background: rgba(233,236,254,.8);*/
+  
+   box-sizing: border-box;
+   
+   border-radius: 7px;
+    border: 2px solid #333;
+  
+  
+  box-shadow: 0px 5px 10px  black, 0px 5px 0px  black;
+  
+  /* box-shadow: 0px 5px 10px  deepskyblue, 0px 5px 0px  crimson;*/
+
+
+
+}
+.logo{
+  
+    width:120px;
+    float:left;
+    /*right;*/
+}
+
+.contenedor{
+box-shadow: 0px 5px 10px  black, 0px 5px 0px  black;
+
+
+/*
+
+box-shadow: 0px 5px 10px  deepskyblue, 0px 5px 0px  crimson;*/
+/*overflow: hidden;*/
+
+}
+
+h1{
+
+margin: 0px;
+font-size:25px;
+font-weight:bold; 
+text-align:center;
+
+/* border-bottom: 4px solid deepskyblue;*/
+ background: rgba(174,182,191,.9);
+
+    /* background: rgba(174,214,241); */ /*deepskyblue;*/
+width:100%;
+
+}
+
+h2{
+margin-top: 10px;
+width:100%;
+   
+    font-size:20px;
+
+
+
+/*text-align:right;*/
+text-align:center;
+
+
+}
+
+input[type="text"], input[type="password"], input[type="email"]{
+
+   background: #fff;
+    color:#333;
+    font-weight:bold; /* poner texto en negrita */
+    outline:none;
+    padding:0px;
+   display:block; 
+    width: 70%;
+    border-radius: 7px;
+    border: 2px solid #333;
+    margin-bottom: 5px;    /* distancia entre lineas de texto*/
+    font-size:14px;
+   /* box-sizing: border-box;*/
+
+}
+
+select{
+ background: #fff;
+    color:#333;
+    font-weight:bold; /* poner texto en negrita */
+    outline:none;
+    padding:0px;
+   display:block; 
+    width: 70%;
+    border-radius: 7px;
+    border: 2px solid #333;
+    margin-bottom: 5px;    /* distancia entre lineas de texto*/
+    font-size:14px;
+   /* box-sizing: border-box;*/
+}
+
+
+
+label{
+font-size:14px;
+}
+
+
+
+a{
+    float:left;
+    font-size:12px;
+    font-weight:bold;
+    text-decoration: none;
+    color:#333;
+
+
+}
+
+a:hover {
+
+    font-size:13px;
+    border-radius: 7px;
+    border: 2px solid #333;
+   
+  /* color: #fff; */
+  /* background-color:  #00b8eb; */ ;   /*#c0392b;  */
+   
+}
+
+
+
+input[type="submit"]{
+    
+    text-align: center;
+    padding:1px;
+    color:#fff;
+    background: crimson;
+   /* background:        #0074c4    ;*/
+    width: 70px;
+    height : 25px;
+    border-radius: 7px;
+    border: 2px solid #333;
+    margin:15px auto;/* distancia entre lineas de texto*/
+    margin-bottom: 10px;
+    font-size:14px;
+    font-weight:bold;
+    
+}
+
+
+
+input[type="submit"]:hover{
+ 
+    
+    background-color:    #1abc9c 
+  ;  ;   /*  #158fe3  #00b8eb; */
+    cursor:pointer;
+    border: 2px solid #333; 
+
+ 
+
+}
+
+@media (max-width:480px){  /* funcion resposive y significa que el estilo empieza a trabajar a partir de ahi/*
+form{
+width: 100%;
+
+
+
+}
+
+
+}
+
+
+
+
+
+/* "SE COMIENZA A TRABAJAR CON EL MENU PRINCIPAL"////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+ 
+
+
